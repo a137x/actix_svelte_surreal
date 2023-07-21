@@ -1,0 +1,9 @@
+.vscode/
+.DS_Store
+.env
+.idea/
+*.log
+/build
+/target
+node_modules/
+nginx.pid

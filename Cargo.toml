@@ -1,0 +1,17 @@
+[package]
+authors = ["a137x <https://github.com/a137x>"]
+edition = "2021"
+name = "actix_svelte_surreal"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.2"
+actix-web = "4.2.1"
+actix-multipart = "0.6.0"
+futures-util = "0.3.28"
+dotenv = "0.15.0"
+serde = { version = "1.0.171", features = ["derive"] }
+uuid = { version = "1.4.1", features = ["v4", "fast-rng"] }
+surrealdb = "1.0.0-beta.9"
