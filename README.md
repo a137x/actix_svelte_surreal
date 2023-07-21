@@ -11,7 +11,7 @@ With simple CRUD setup using Surreal DB as a permanent storage for application d
 ## Features
 
 - [Actix web](https://actix.rs/) server
-- [SurrealDB](https://surrealdb.com/) SurrealDB is the ultimate multi-model database for tomorrow's applications for storing todos data.
+- [SurrealDB](https://surrealdb.com/) is the ultimate multi-model database for tomorrow's applications for storing todos data.
 - [SvelteKit](https://kit.svelte.dev/) for frontend, served as static files
 
 
@@ -21,9 +21,9 @@ We use Vite's proxy in the dev environment and serve svelte as static files in p
 
 ### Dev Requirements
 
-- [ ] Rust: `curl https://sh.rustup.rs -sSf | sh`
-- [ ] node: https://nodejs.org/en/download/current/
-- [ ] Docker engine and docker image of SurrealDB.
+- Rust: `curl https://sh.rustup.rs -sSf | sh`
+- node: https://nodejs.org/en/download/current/
+- Docker engine and docker image of SurrealDB.
 
 
 ### Script
