@@ -14,6 +14,18 @@ fn main() -> std::io::Result<()> {
         panic!("npm is not installed! install it first.");
     }
 
+    let env_file = std::path::Path::new(".env");
+    if !env_file.exists() {
+        let current_dir = std::env::current_dir()?;
+        std::fs::write(
+            ".env",
+            format!(
+                "STATIC_FILE_PATH = {}",
+                current_dir.join("client/build").display()
+            ),
+        )?;
+    }
+
     #[cfg(not(debug_assertions))]
     {
         return build_client();
